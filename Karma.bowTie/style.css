@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	font: bold 1.5em/1.25em 'Helvetica Neue', 'Helvetica', sans-serif;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+img {
+	display: block;
+}
+#container {
+	position: absolute;
+	top: 0px;
+	width: 560px;
+	height: 148px;
+	background-color: rgba(0,0,0, 0.2);
+	-webkit-border-radius: 6px;
+}
+#artBox {
+	width: 128px;
+	height: 128px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 0;
+	background: rgba(0,0,0,0.3);
+}
+#artBox:hover #controls {
+	display: block;
+}
+#art {
+	position: absolute;
+	height: 128px;
+	width: 128px;
+	border: 0;
+}
+#controls {
+	display: none;
+	position: absolute;
+	left: 7px;
+	bottom: 0;
+	width: 128px;
+	list-style-type: none;
+	margin: 0;
+}
+#controls li {
+	float: left;
+	margin-right: 4px;
+}
+#controls li a {
+	margin: 0;
+	padding: 0;
+}
+#prev, #next, #playLink {
+	display: inline-block;
+	width: 37px;
+	height: 24px;
+	background: url('buttons.png') no-repeat;
+}
+#playLink {
+	width: 32px;
+}
+#playLink.pause {
+	background-position: -32px 0;
+}
+#prev {
+	background-position: -64px 0;
+}
+#next {
+	background-position: -101px 0;
+}
+#text {
+	position: absolute;
+	top: 7px;
+	left: 148px;
+	text-align: left;
+	width: 400px;
+}
+#text p, #time, #rating {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-shadow: #000 0px 1px 1px;
+}
+#album {
+	position: relative;
+	top: -2px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #ddd;
+	-webkit-opacity: 0.99;
+}
+#artist {
+	position: relative;
+	top: -4px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #ddd;
+	-webkit-opacity: 0.99;
+	font-weight: normal;
+}
+#length {
+	width: 100%;
+	height: 6px;
+	-webkit-border-radius: 3px;
+	margin: 3px 0 6px;
+	background-color: #666;
+}
+#progress {
+	height: 6px;
+	min-width: 6px;
+	display: block;
+	float: left;
+	-webkit-border-radius: 3px;
+	background-color: #ddd;
+}
+#time {
+	clear: left;
+	-webkit-opacity: 0.99;
+}
+#time_total {
+	display: none;
+}
+#rating {
+	font-weight: normal;
+	margin-top: -2px;
+	float: right;
+	-webkit-opacity: 0.99;
+}
+#rating a {
+	width: 1em;
+	height: 1em;
+	font-size: 0.9em;
+	color: #fff;
+	text-decoration: none;
+}

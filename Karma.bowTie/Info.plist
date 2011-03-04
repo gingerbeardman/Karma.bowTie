@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BTArtworkFunction</key>
+	<string>artworkUpdate</string>
+	<key>BTArtworkHeight</key>
+	<integer>128</integer>
+	<key>BTArtworkWidth</key>
+	<integer>128</integer>
+	<key>BTMainFile</key>
+	<string>index.html</string>
+	<key>BTStatusFunction</key>
+	<string>playerUpdate</string>
+	<key>BTThemeArtist</key>
+	<string>Matt Sephton</string>
+	<key>BTThemeIdentifier</key>
+	<string>com.gingerbeardman.karma</string>
+	<key>BTThemeName</key>
+	<string>Karma</string>
+	<key>BTThemePreviewImage</key>
+	<string>preview.png</string>
+	<key>BTTrackFunction</key>
+	<string>trackUpdate</string>
+	<key>BTWindowHeight</key>
+	<integer>148</integer>
+	<key>BTWindowMode</key>
+	<string>top</string>
+	<key>BTWindowWidth</key>
+	<integer>560</integer>
+	<key>BTThemeVersion</key>
+	<string>1.1</string>
+</dict>
+</plist>

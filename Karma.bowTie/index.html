@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Matt Sephton">
+	<title>Karma - a BowTie theme</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+	<script type="text/javascript" charset="utf-8" src="script.js"></script>
+</head>
+<body id="blocky">
+	<div id="container">
+		<div id="artBox">
+			<img src="" id="art">
+
+			<ul id="controls">
+				<li><a href="#" onClick="iTunes.previousTrack(); stopTimer(); startTimer();return false;" id="prev"></a></li>
+				<li><a href="#" onClick="playPause(); stopTimer(); startTimer();return false;" id="playLink" class="pause"></a></li>
+				<li><a href="#" onClick="iTunes.nextTrack(); stopTimer(); startTimer(); return false;" id="next"></a></li>
+			</ul>
+		</div>
+
+		<div id="text">
+			<p id="title">Loading...</p>
+			<p id="album">Album</p>
+			<p id="artist">Artist</p>
+
+			<div id="length">
+				<div id="progress"></div>
+			</div>
+
+			<span id="time">
+				<span id="time_current">00:00</span><span id="time_total">43:21</span>
+			</span> 
+
+			<span id="rating">
+				<a id="star0" href="#" onClick="setRating(0); stopTimer(); startTimer(); return false;">•</a>
+				<a id="star1" href="#" onClick="setRating(20); stopTimer(); startTimer(); return false;">★</a>
+				<a id="star2" href="#" onClick="setRating(40); stopTimer(); startTimer(); return false;">★</a>
+				<a id="star3" href="#" onClick="setRating(60); stopTimer(); startTimer(); return false;">★</a>
+				<a id="star4" href="#" onClick="setRating(80); stopTimer(); startTimer(); return false;">☆</a>
+				<a id="star5" href="#" onClick="setRating(100); stopTimer(); startTimer(); return false;">☆</a>
+			</span>
+		</div>
+	</div>
+</body>
+</html>
